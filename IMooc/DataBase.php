@@ -6,6 +6,7 @@
  * Time: 下午5:46
  */
 namespace IMooc;
+use IMooc\DataBase\PDO;
 
 
 /**
@@ -33,7 +34,7 @@ class DataBase
         if (self::$db) {
             return self::$db;
         } else {
-            self::$db = new self();
+            self::$db = new PDO();
             return self::$db;
         }
     }

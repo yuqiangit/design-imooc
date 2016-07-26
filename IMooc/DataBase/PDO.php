@@ -26,7 +26,7 @@ class PDO implements IDataBase
     }
 
     public function query($sql) {
-        $result =  $this->conn->query($sql);
+        $result =  $this->conn->query($sql,\PDO::FETCH_ASSOC);
         return $result;
     }
 

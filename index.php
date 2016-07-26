@@ -109,16 +109,26 @@ spl_autoload_register('\\IMooc\\Loader::autoload');
  * 原型模式
  */
 
-$canvas = new \IMooc\Canvas();
-$canvas->addDecorator(new \IMooc\DrawDecoratorSize(5));
-$canvas->addDecorator(new \IMooc\DrawDecoratorColor('green'));
-$canvas->init();
-$canvas->rect(1, 3, 5, 6);
-$canvas->draw();
+//$canvas = new \IMooc\Canvas();
+//$canvas->addDecorator(new \IMooc\DrawDecoratorSize(5));
+//$canvas->addDecorator(new \IMooc\DrawDecoratorColor('green'));
+//$canvas->init();
+//$canvas->rect(1, 3, 5, 6);
+//$canvas->draw();
+//
+//echo '------------------------------<br>';
+//
+//$canvas1 = clone $canvas;
+//$canvas->init();
+//$canvas->rect(1, 3, 4, 6);
+//$canvas->draw();
 
-echo '------------------------------<br>';
-
-$canvas1 = clone $canvas;
-$canvas->init();
-$canvas->rect(1, 3, 4, 6);
-$canvas->draw();
+/**
+ * 迭代器模式
+ */
+$user_all = new \IMooc\AllUser();
+/** @var \IMooc\User $user */
+/** @var object $user */
+foreach ($user_all as $user) {
+    var_dump($user->name);
+}
