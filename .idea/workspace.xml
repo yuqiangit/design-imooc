@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d37085-1f25-4ebf-8e84-c58536d36f52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/EventGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/EventObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/EventObserver1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/EventObserver2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/EventObserver3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/Canvas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/DrawDecorator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/DrawDecoratorColor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IMooc/DrawDecoratorSize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/imooc.iml" afterPath="$PROJECT_DIR$/.idea/imooc.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
@@ -34,116 +33,34 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.583333">
-              <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+            <state vertical-scroll-proportion="-9.458333">
+              <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1469515331000" expanded="true" signature="940:968" placeholder="select * fro... t_user" />
+                <marker date="1469518110000" expanded="true" signature="940:968" placeholder="select * fro... t_user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Event.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IMooc/Event.php">
+      <file leaf-file-name="Canvas.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IMooc/Canvas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4791155">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMooc/EventGenerator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.458333">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventObserver.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMooc/EventObserver.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="e#7#91#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventObserver1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMooc/EventObserver1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventObserver2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMooc/EventObserver2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state vertical-scroll-proportion="1.5110565">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventObserver3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMooc/EventObserver3.php">
+      <file leaf-file-name="DrawDecoratorSize.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMooc/DrawDecoratorSize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMooc/Factory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMooc/Register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMooc/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1469503812000" expanded="true" signature="340:383" placeholder="select * fro... t_user" />
-                <marker date="1469503812000" expanded="true" signature="340:668" placeholder="select * fro... t_user" />
-                <marker date="1469503812000" expanded="true" signature="551:576" placeholder="update t_use... " />
-                <marker date="1469503812000" expanded="true" signature="551:603" placeholder="update t_use... " />
-                <marker date="1469503812000" expanded="true" signature="551:616" placeholder="update t_use... " />
+                <marker date="1469518042000" expanded="true" signature="313:339" placeholder="..." />
+                <marker date="1469518042000" expanded="true" signature="340:390" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -191,7 +108,11 @@
         <option value="$PROJECT_DIR$/IMooc/EventObserver1.php" />
         <option value="$PROJECT_DIR$/IMooc/EventObserver2.php" />
         <option value="$PROJECT_DIR$/IMooc/EventObserver3.php" />
+        <option value="$PROJECT_DIR$/IMooc/DrawDecorator.php" />
+        <option value="$PROJECT_DIR$/IMooc/DrawDecoratorSize.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/IMooc/DrawDecoratorColor.php" />
+        <option value="$PROJECT_DIR$/IMooc/Canvas.php" />
       </list>
     </option>
   </component>
@@ -376,14 +297,20 @@
       <option name="project" value="LOCAL" />
       <updated>1469513818676</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="observer模式">
+      <created>1469516062083</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1469516062083</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.273906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.273906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -418,7 +345,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="magic function" />
     <MESSAGE value="go on" />
-    <option name="LAST_COMMIT_MESSAGE" value="go on" />
+    <MESSAGE value="observer模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,7 +451,7 @@
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1469515331000" expanded="true" signature="940:968" placeholder="select * fro... t_user" />
+            <marker date="1469518110000" expanded="true" signature="940:968" placeholder="select * fro... t_user" />
           </folding>
         </state>
       </provider>
@@ -718,29 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMooc/Factory.php">
+    <entry file="file://$PROJECT_DIR$/IMooc/Event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.583333">
-          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1469515331000" expanded="true" signature="940:968" placeholder="select * fro... t_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMooc/EventObserver1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.5159705">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>
@@ -749,23 +658,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IMooc/EventObserver2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
+        <state vertical-scroll-proportion="0.22113022">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMooc/EventObserver3.php">
+    <entry file="file://$PROJECT_DIR$/IMooc/EventObserver1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="0.2948403">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IMooc/EventObserver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
+        <state vertical-scroll-proportion="0.4054054">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#7#91#0#PHP" expanded="true" />
@@ -775,21 +686,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IMooc/EventGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.458333">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.5945946">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMooc/Event.php">
+    <entry file="file://$PROJECT_DIR$/IMooc/EventObserver3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4791155">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.22113022">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMooc/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4054054">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMooc/DrawDecoratorSize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1469518042000" expanded="true" signature="313:339" placeholder="..." />
+            <marker date="1469518042000" expanded="true" signature="340:390" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.458333">
+          <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1469518110000" expanded="true" signature="940:968" placeholder="select * fro... t_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMooc/DrawDecorator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33169532">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMooc/DrawDecoratorColor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66339064">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <marker date="1469518143000" expanded="true" signature="318:335" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMooc/Canvas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5110565">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

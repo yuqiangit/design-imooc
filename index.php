@@ -99,8 +99,26 @@ spl_autoload_register('\\IMooc\\Loader::autoload');
  * 观察者模式
  */
 
-$even = new Event();
-$even->addObserver(new \IMooc\EventObserver1());
-$even->addObserver(new \IMooc\EventObserver2());
-$even->addObserver(new \IMooc\EventObserver3());
-$even->trigger();
+//$even = new Event();
+//$even->addObserver(new \IMooc\EventObserver1());
+//$even->addObserver(new \IMooc\EventObserver2());
+//$even->addObserver(new \IMooc\EventObserver3());
+//$even->trigger();
+
+/**
+ * 原型模式
+ */
+
+$canvas = new \IMooc\Canvas();
+$canvas->addDecorator(new \IMooc\DrawDecoratorSize(5));
+$canvas->addDecorator(new \IMooc\DrawDecoratorColor('green'));
+$canvas->init();
+$canvas->rect(1, 3, 5, 6);
+$canvas->draw();
+
+echo '------------------------------<br>';
+
+$canvas1 = clone $canvas;
+$canvas->init();
+$canvas->rect(1, 3, 4, 6);
+$canvas->draw();
