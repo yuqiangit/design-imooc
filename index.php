@@ -6,6 +6,8 @@
  * Time: 上午11:42
  */
 
+use IMooc\Event;
+
 define('BASEDIR', __DIR__);
 /**
  * spl 标准框架 模式
@@ -89,6 +91,16 @@ spl_autoload_register('\\IMooc\\Loader::autoload');
 //$user_info->name = 'wanghau';
 //echo 'ok';
 
-$user = \IMooc\Factory::createUser(94);
-echo $user->name;
-$user->name = 'ccc';
+//$user = \IMooc\Factory::createUser(94);
+//echo $user->name;
+//$user->name = 'ccc';
+
+/**
+ * 观察者模式
+ */
+
+$even = new Event();
+$even->addObserver(new \IMooc\EventObserver1());
+$even->addObserver(new \IMooc\EventObserver2());
+$even->addObserver(new \IMooc\EventObserver3());
+$even->trigger();
