@@ -29,4 +29,24 @@ class Object
     public function __call($name, $arguments) {
         echo __METHOD__ . '<br>';
     }
+
+    public static function __callStatic($name, $arguments) {
+        echo __METHOD__ . '<br>';
+    }
+
+    /**
+     * @author shihuipeng@chushi007.com
+     *
+     * @return string
+     */
+    public function __toString(){
+        echo __METHOD__ . '<br>';
+        return __METHOD__;
+    }
+
+    public function __invoke($param) {
+        echo __METHOD__ . '<br>';
+        return $param;
+    }
+
 }

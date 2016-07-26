@@ -9,6 +9,11 @@ namespace IMooc;
 class Loader
 {
     static function autoload($class) {
-        require BASEDIR.'/'.str_replace('\\','/',$class).'.php';
+
+        if($class != 'IMooc\IDataBase'){
+            require BASEDIR.'/'.str_replace('\\','/',$class).'.php';
+        }else{
+            require BASEDIR.'/'.str_replace('\\','/','IMooc\\DataBase').'.php';
+        }
     }
 }
