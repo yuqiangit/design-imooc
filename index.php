@@ -126,9 +126,17 @@ spl_autoload_register('\\IMooc\\Loader::autoload');
 /**
  * 迭代器模式
  */
-$user_all = new \IMooc\AllUser();
-/** @var \IMooc\User $user */
-/** @var object $user */
-foreach ($user_all as $user) {
-    var_dump($user->name);
-}
+//$user_all = new \IMooc\AllUser();
+///** @var \IMooc\User $user */
+///** @var object $user */
+//foreach ($user_all as $user) {
+//    var_dump($user->name);
+//}
+
+/**
+ * 代理模式
+ */
+$proxy = new \IMooc\Proxy();
+$result = $proxy->getInfo(94);
+var_dump($result);
+//$proxy->updateInfo(94,'shihpx');
